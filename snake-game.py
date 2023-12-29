@@ -64,12 +64,11 @@ while game_is_on:
     food_eaten = my_snake.snake_grow(food.food)
 
     if food_eaten:
-        print(food_eaten)
         food.change_position()
         score.update_score()
 
-        print(score.score)
-        print(len(my_snake.position))
+
+
 
 
 
