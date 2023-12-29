@@ -26,7 +26,7 @@ class Snake():
     def create_seg(self):
         seg_1 = Turtle("square")
         seg_1.color("red")
-        print("The turtle size is")
+
 
         seg_1.penup()
         return seg_1
@@ -165,7 +165,7 @@ class Snake():
 
         head_x = int(self.segments[0].xcor())
         head_y = int(self.segments[0].ycor())
-        x = len(self)
+
 
         for segs in self.segments[1:]:
 
@@ -174,7 +174,7 @@ class Snake():
 
 
         if self.segments[0].distance(self.blk) <= 30:
-            print("TRUEEEEE")
+
             return True
 
         return False

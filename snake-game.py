@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from turtle import Turtle,Screen
 import turtle as t
 import time
